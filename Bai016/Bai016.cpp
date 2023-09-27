@@ -16,11 +16,9 @@ int main()
 
 int KetQua(int xx)
 {
-	int x2, x4, x8, x16, x32;
+	int x2, x4, x8;
 	x2 = xx * xx;
 	x4 = x2 * x2;
 	x8 = x4 * x4;
-	x16 = x8 * x8;
-	x32 = x16 * x16;
-	return x32 * x32;
+	return x8 * xx;
 }
