@@ -10,7 +10,7 @@ int main()
 	cin >> n;
 
 	cout << "tong S(" << n << ") la: ";
-	cout << Tong(n);
+	cout << setprecision(3) << Tong(n);
 
 	return 1;
 }

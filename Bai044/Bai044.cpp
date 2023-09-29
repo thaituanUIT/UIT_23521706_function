@@ -10,7 +10,7 @@ int main()
 	cin >> n;
 
 	cout << "tong S(" << n << ") la: ";
-	cout << setprecision(3) << Tong(n);
+	cout << fixed << setprecision(3) << Tong(n);
 
 	return 1;
 }
@@ -21,7 +21,7 @@ int Tong(int nn)
 	int i = 1;
 	while (i <= nn)
 	{
-		s = s + (float)1 / (i * (i + 1));
+		s = s + (float)1 / (i * (i + 1) * (i + 2) * (i + 3));
 		i++;
 	}
 	return s;

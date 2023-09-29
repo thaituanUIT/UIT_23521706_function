@@ -11,7 +11,7 @@ int main()
 	cin >> n;
 
 	cout << "tich T(" << n << ") la: ";
-	cout << Tich(n);
+	cout << setprecision(3) << Tich(n);
 
 	return 1;
 }
