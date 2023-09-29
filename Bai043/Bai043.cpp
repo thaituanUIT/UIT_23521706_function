@@ -21,7 +21,7 @@ int Tong(int nn)
 	int i = 1;
 	while (i <= nn)
 	{
-		s = s + (i * (i + 1) * (i + 2));
+		s = s + (float)1 / (i * (i + 1) * (i + 2));
 		i++;
 	}
 	return s;
