@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include <cmath>
 using namespace std;
 float Tong(float, float);
@@ -13,7 +14,7 @@ int main()
 	cin >> x;
 
 	cout << "Tong S(" << x << "," << n << ") la: ";
-	cout << Tong(x, n);
+	cout << setprecision(3) << Tong(x, n);
 
 	return 1;
 }

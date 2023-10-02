@@ -14,7 +14,7 @@ int main()
 	cin >> n;
 
 	cout << "Tong S(" << x << "," << n << ") la: ";
-	cout << fixed << setw(5) << setprecision(3) << setfill('0') << Tong(x, n);
+	cout << fixed << setprecision(3) << Tong(x, n);
 	return 0;
 }
 
