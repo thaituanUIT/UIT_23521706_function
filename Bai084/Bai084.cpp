@@ -20,12 +20,12 @@ int main()
 
 float Tong(float xx, float nn)
 {
-	float s = 0, t = 1;
+	float s = 0, t = xx;
 	int i = 1;
 
 	while (i <= nn)
 	{
-		t = t * sin(xx);
+		t = sin(t);
 		s = s + t;
 		i++;
 	}

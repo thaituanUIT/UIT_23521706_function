@@ -25,8 +25,8 @@ float Tong(float xx, float nn)
 
 	while (i <= nn)
 	{
-		t = t * sin(xx);
-		s = s + t;
+		t = t * xx;
+		s = s + sin(t);
 		i++;
 	}
 
