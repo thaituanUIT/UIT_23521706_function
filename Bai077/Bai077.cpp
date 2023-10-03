@@ -5,10 +5,10 @@ using namespace std;
 float Tong(float, float);
 
 int main()
-{
+{	
 	float k, n;
 
-	cout << "Nhap so nguyen duong n: ";
+    cout << "Nhap so nguyen duong n: ";
 	cin >> n;
 	cout << "Nhap so thuc k: ";
 	cin >> k;
