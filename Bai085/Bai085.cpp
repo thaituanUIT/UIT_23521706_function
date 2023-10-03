@@ -8,7 +8,7 @@ int main()
 	float x;
 	cout << "Nhap so thuc x: ";
 	cin >> x;
-	
+
 	int n;
 	cout << "Nhap so nguyen n: ";
 	cin >> n;

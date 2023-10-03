@@ -9,7 +9,7 @@ int main()
 
 	cout << "Nhap so nguyen duong n: ";
 	cin >> n;
-	
+
 	cout << "Tong S(" << n << ") la: ";
 	cout << Tong(n);
 
