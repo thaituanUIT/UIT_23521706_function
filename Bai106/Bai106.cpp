@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-float sin();
+float sin(float)
 
 int main()
 {
@@ -13,7 +13,7 @@ int main()
 	return 0;
 }
 
-float sin()
+float sin(float xx)
 {
 	double s, m = 1, e = 1, i = 4, x, t;
 	cin >> x;
