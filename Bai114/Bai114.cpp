@@ -9,16 +9,17 @@ int main()
     cout << "Nhap so nguyen duong n : ";
     cin >> n;
 
-    cout << "So hang (" << n << ") la: ";
+    cout << "So hang (" << n << ") la: " ;
+	cout << Sohang(n);
     return 0;
 }
-int Sohang(int)
+int Sohang(int nn)
 {
 	float at = -2, tt = 3, pp = 7, ahh;
 	int i = 2;
     int n;
 
-	while (i <= n )
+	while (i <= nn )
 	{
 		tt = tt * 3;
 		pp = pp * 7;

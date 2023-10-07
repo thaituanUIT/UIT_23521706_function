@@ -11,15 +11,16 @@ int main()
     cin >> n;
 
     cout << "So hang (" << n << ") la: ";
+    cout << Sohang(n);
     return 0;
 }
-int Sohang(int)
+int Sohang(int nn)
 
 {
-	double at = 2, ahh, n;
+	double at = 2, ahh;
 	int i = 2;
 
-	while (i <= n)
+	while (i <= nn)
 	{
 		ahh = at + 2 * i + 1;
 		i++;
