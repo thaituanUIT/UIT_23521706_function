@@ -5,7 +5,6 @@ float exp();
 
 int main()
 {
-	
     cout << "Gia tri e : ";
     cout << exp();
 	return 0;
