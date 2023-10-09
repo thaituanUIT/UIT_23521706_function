@@ -23,7 +23,7 @@ int TinhAn(int nn)
     int n;
 	int i = 2;
 
-	while (i <= n)
+	while (i <= nn)
 	{
 		ahh = (-9 * at - 24) / (5 * at + 13);
 		i++;

@@ -9,24 +9,28 @@ int main()
     cout << "Nhap n :";
     cin >> n;
 
-    cout << "Ket qua : ";
+    cout << "Ket qua (" << n << ") la : ";
     cout << Sohang(n);
     return 0;
 }
 int Sohang(int nn)
 {
+    if (nn == 0)
+    return 1;
     if (nn == 1)
-    return 2;
+    return 1;
     
-    double at = 2;
-    double ahh;
+    double att = 1;
+    double at = 1;
+	double ahh; 
     int n;
 	int i = 2;
 
 	while (i <= nn)
 	{
-		ahh = 5 * at + sqrt(24 * at * at - 8);
+		ahh = att + at;
 		i++;
+		att = at;
 		at = ahh;
 	}
 	return ahh;
